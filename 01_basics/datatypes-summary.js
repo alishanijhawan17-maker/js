@@ -27,3 +27,25 @@ const myFunction=function(){
     console.log("hello world");
     
 }
+//####################################memory
+//stack(primitive)
+//heap(non-primitive) and iss reference original value ka milta hai
+let name="abc"
+let anotherName=name
+anotherName="cde"
+console.log(name);//remains unchanged abc
+console.log(anotherName);//cde
+
+let user1={
+    email:"user@google.com",
+    upi:"user@ybl",
+
+}
+let user2=user1
+user2.email="abc@gmail.com"
+console.log(user1.email);//dono mei changes hoyenge as same reference jaata h
+console.log(user2.email);
+
+
+
+
