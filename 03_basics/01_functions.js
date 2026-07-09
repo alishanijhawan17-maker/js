@@ -29,6 +29,32 @@ const ans1=LoginUserMessage()
 console.log(res);//hitesh just logged in
 console.log(ans1);//undefined just logged in 
 
+function calculateCartPrice(...num1){ //rest operator: ...
+    return num1;
+}
+console.log(calculateCartPrice(200,400,500)); //[200,400,500] it returns array
+
+
+const user={
+    username:"abc",
+    price:200,
+}
+function handleObjects(anyobject){
+    console.log(`username is ${anyobject.username} and price is ${anyobject.price}`);
+    
+}
+handleObjects(user)
+
+
+const newArray=[200,400,100,600]
+function returnSecondValue(getArray){
+    return getArray[1];
+}
+console.log(returnSecondValue(newArray));
+
+
+
+
 
 
 
