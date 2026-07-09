@@ -44,6 +44,19 @@ const users=[
 ]
 console.log(users[1].email);
 
+//destructuring objects
+const course={
+    coursename:"js in hindi",
+    price:"999",
+    courseinstructor:"hitesh",
+}
+const{courseinstructor:instructor}=course; //courseinstructor ko instructor ka name dediya
+//console.log(courseinstructor);
+console.log(instructor);
+
+//api's can be in form of object or arrays and api's are JSON format
+
+
 
 
 
