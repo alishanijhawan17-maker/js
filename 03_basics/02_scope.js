@@ -8,7 +8,7 @@ if(true){
 //console.log(a); a won't get printed as it is declared inside if
 //console.log(b); b also won't get printed and give error 
 console.log(c);// c gets printed which means 30 gets printed due to var keyword hence this var is not used
-
+//var ignores block scope
 
 let a1=300
 if(true){
